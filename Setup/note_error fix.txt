@@ -1,0 +1,27 @@
+Modifiez ces variables d'environnement :
+
+JAVA_HOME=C:\Program Files\Java\jdk-19
+
+JC_HOME=C:\java_card_kit-2_2_2
+
+PATH=%PATH%;%JC_HOME%\bin
+;
+
+Pour une configuration complète, consultez les fichiers : 
+"Atelier JavaCard - EN-NAHEL Aissam - Calcul nbr d'heures travaillées.pdf"
+"Rapport.pdf"
+---------------------------------------------------------------
+
+Il ya un problem avec le chemain de JAVA_HOME
+Assurer que ce chemin de JAVA_HOME n'a pas d'espaces comme C:\Program Files\Java\jdk-19
+
+
+Même en utilisant les guillemets comme JAVA_HOME="C:\Program Files\Java\jdk-19", ne fonctionnera pas
+
+Solution :
+Créez un dossier nommé Java à la racine de votre disque C
+Copiez le dossier jdk-19 de C:\Program Files\Java\ vers C:\Java
+
+Ensuite, utilisez ce chemin sans espaces pour JAVA_HOME :
+JAVA_HOME=C:\Java\jdk-19
+
