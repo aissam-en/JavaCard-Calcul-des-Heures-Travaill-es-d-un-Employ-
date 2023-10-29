@@ -1,5 +1,5 @@
 
-# Projet JavaCard:
+# Projet JavaCard
 Calcul les Heures Travaillées d’un Employé.
 
 ## 🛠 Langages
